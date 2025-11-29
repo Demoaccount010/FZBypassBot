@@ -17,3 +17,12 @@ fake-useragent
 selenium
 undetected-chromedriver
 truelink
+pyrogram==2.0.106
+tgcrypto
+aiohttp
+requests
+beautifulsoup4
+six==1.16.0
+urllib3==1.26.16
+flask
+gunicorn
