@@ -1,28 +1,41 @@
+# Core async + networking
 aiohttp
 aiofiles
-bs4
+httpx
+
+# Parsing
+lxml
+beautifulsoup4
+
+# Shortener bypass tools
 cfscrape
 cloudscraper
 curl_cffi
-lxml
-httpx
+
+# Environment utils
 python-dotenv
-pyrofork
-requests
-tgcrypto
-urllib3==1.26
-uvloop==0.21.0
 psutil
 fake-useragent
-selenium
-undetected-chromedriver
-truelink
+
+# Telegram bot libraries
 pyrogram==2.0.106
 tgcrypto
-aiohttp
-requests
-beautifulsoup4
+
+# Bypass engine
+truelink
+
+# Selenium (optional heavy dependency)
+selenium
+undetected-chromedriver
+
+# Security: fix urllib3 + six
 six==1.16.0
 urllib3==1.26.16
+
+# Server for Render
 flask
 gunicorn
+
+# Performance, but Render only supports on Python 3.10
+uvloop==0.21.0
+
